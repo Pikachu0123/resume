@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FE11HHTL83"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-FE11HHTL83');
-    </script>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arnav Goyal - Resume</title>
     <style>
-        body, html { margin: 0; padding: 0; height: 100%; width: 100%; overflow: hidden; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        body, html { 
+            margin: 0; 
+            padding: 0; 
+            height: 100%; 
+            width: 100%; 
+            overflow: hidden; 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+        }
         
-       
         .download-btn {
             position: fixed;
             bottom: 30px;
@@ -35,7 +33,6 @@
             transform: scale(1.05);
         }
 
-        /* Full screen PDF */
         #resume-viewer {
             width: 100%;
             height: 100vh;
@@ -52,9 +49,10 @@
     </a>
 
     <object id="resume-viewer" data="./Arnav_Goyal_IIT_BHU.pdf" type="application/pdf">
-        <p>It looks like your browser doesn't support PDFs. 
-           <a href="./Arnav_Goyal_IIT_BHU.pdf">Click here to view it.</a>
-        </p>
+        <div style="padding: 20px; text-align: center;">
+            <p>Your browser doesn't support direct PDF viewing.</p>
+            <a href="./Arnav_Goyal_IIT_BHU.pdf" style="color: #007bff;">Click here to open the PDF directly.</a>
+        </div>
     </object>
 
 </body>
